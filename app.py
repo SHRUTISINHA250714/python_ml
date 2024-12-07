@@ -44,4 +44,6 @@ def get_chart_data():
         "y_pred": y_pred_list
     })
 
-
+if __name__ == '__main__':
+    app.run(debug=True)
+# from flask import Flask, json
