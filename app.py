@@ -43,6 +43,8 @@ def get_chart_data():
         "y_test": y_test_list,
         "y_pred": y_pred_list
     })
+ 
+
 
 if __name__ == '__main__':
     app.run(debug=True)
